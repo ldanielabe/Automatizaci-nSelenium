@@ -34,8 +34,8 @@ public class IngresarOther {
 	 public void login() throws InterruptedException {
 		Thread.sleep(5000);
 		driver.manage().deleteAllCookies();
-		driver.findElement(By.cssSelector("[placeholder='Correo']")).sendKeys("valeriasalazar@wposs.com");
-	    driver.findElement(By.cssSelector("[placeholder='Contraseña']")).sendKeys("Wposs.2019");
+		driver.findElement(By.cssSelector("[placeholder='Correo']")).sendKeys("**************");
+	    driver.findElement(By.cssSelector("[placeholder='ContraseÃ±a']")).sendKeys("******");
 		driver.findElement(By.className("ui-button")).click();
 		driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
 	 }
